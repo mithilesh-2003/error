@@ -1,38 +1,226 @@
 .App {
   text-align: center;
 }
+*body{
+  background: red;
+}
+.a{
+  height: 500px;
+  width: 900px;
+  background: #7ddbe0;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.b{
+  height: 400px;
+  width: 400px;
+  background: green;
+  float: left;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.c{
+  height: 400px;
+  width: 400px;
+  background: pink;
+  margin-top: 50px;
+  float: left;
+}
+.d{
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.e{
+  width: 300px;
+}
+.btn1{background: red;
+  cursor: pointer;
+}
+.btn1:hover{
+  background: green;
+}
+.A{
+  height: 350px;
+  width: 300px;
+  background: #ffc0cb;
+  margin: auto;
+  margin-top: 100px;
+ 
+}
+.A1{
+  height: 350px;
+  width: 300px;
+  opacity: .4;
+  position: relative;
+}
+.A2{
+  margin-left: 50px;
+  position: absolute;
+  margin-top: -330px;
+}
+.A3{
+  margin-left: 50px;
+  position: absolute;
+  margin-top: -270px;
+}
+#z{
+  height: 550px;
+  width: auto;
+  background: #13342e;
+}
+#serch{
+  height: 100px;
+  width: 700px;
+  background: whitesmoke;
+  position: relative;
+}
+.in{
+  height: 50px;
+  width: 200px;
+  margin-top: -38px;
+  position: absolute;
+  margin-left: 25px;
+  border: none;
+}
+.type{
+  height: 50px;
+  width: 200px;
+  margin-top: -38px;
+  position: absolute;
+  margin-left: 230px;
+  border: none;
+  background: white;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+.category{
+  height: 50px;
+  width: 150px;
+  margin-top: -38px;
+  position: absolute;
+  margin-left: 435px;
+  border: none;
+  background: blue;
+
+}
+.Q{
+  height: 550px;
+  width: 743px;
+  float: left;
+}
+.R{
+  height: 550px;
+  width: 600px;
+  float: left;
+  position: relative;
+}
+#img{
+  margin-top: 90px;
+  margin-left: 50px;
+  position: absolute;
+}
+#mid{
+  height: 300px;
+  width: auto;
+  background: #f8f8f8;
+}
+.m1{
+  height: 150px;
+  width: 290px;
+  background-color: white;
+  float: left;
+  /* margin: 20px; */
+  margin-top: 50px;
+  margin-left: 20px;
+  border-right:1px solid black ;
+}
+#mid1{
+  height: 800px;
+  width: auto;
+  background: #ffffff;
+}
+#mid2{
+  height: 150px;
+  width:auto ;
+}
+#mid3{
+  height: 550px;
+  width:auto ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mid1{
+  height: 120px;
+  width: 240px;
+  margin-left: 70px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid blue;
+  text-align: center;
+}
+#ljob{
+  height: 850px;
+  width: auto;
+  background:#f0f3f3;
+}
+#ljob1{
+  height: 150px;
+  width: auto;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+#ljob2{
+  height: 550px;
+  width: auto;
+  padding-left: 50px;
+}
+.ljob1{
+  height: 300px;
+  width: 350px;
+  background:#ffffff;
+  margin-top: 30px;
+  margin-left: 30px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+
+}
+.urgent{
+  height: 20px;
+  width: 150px;
+  background: red;
+  position: relative;
+  transform: rotate(-224deg);
+  margin-left: -27px;
+ 
+  overflow: hidden;
+}
+#ur{
+  position: relative;
+  transform: rotate(-39deg);
+  margin-left: -27px;
+  overflow: hidden;
+  margin-top: -110px;
+
+}
+#nav1{
+  height:100px;
+  width: auto;
+  background: gray;
+  padding-left: 30px;
+}
+.nav1{
+  height:100px;
+  width: 400px;
+  border: 1px solid red;
+  float: left;
+  margin-left: 20px;
+  padding-top: 30px;
+}
+#font{
+  color: blue;
+  cursor: pointer;
+  font-size: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

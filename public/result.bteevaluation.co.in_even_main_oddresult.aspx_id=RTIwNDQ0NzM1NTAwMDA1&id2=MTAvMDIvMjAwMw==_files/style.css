@@ -1,0 +1,83 @@
+﻿body {
+}
+.heading
+{
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    text-transform:uppercase;
+}
+.normaltext
+{
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    text-transform:uppercase;
+}
+.uheading
+{
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    text-transform:uppercase;
+}
+.printtext
+{
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    padding: 5px;
+    font-family: verdana;
+    font-size: 9px;
+    text-align: left;
+    text-transform:uppercase;
+    }
+.tblprint
+{
+    font-family: verdana;
+    font-size: 9px;
+    text-align: left;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-top-color: #999999;
+    border-left-color: #999999;
+    text-transform:uppercase;
+}
+.printtextbold
+{
+    padding: 5px;
+    font-family: verdana;
+   font-size: 9px;
+    text-align: left;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-color: #999999;
+    border-bottom-color: #999999;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+.watermark {
+  width: 100%;
+  
+  display: block;
+  position: relative;
+}
+
+.watermark::after {
+  content: "";
+ background:url(http://bteupexam.in/images/2.PNG);
+  opacity: 0.1;
+  top: 40%;
+  left: 38%;
+  bottom: 0;
+  right: 0;
+  position:fixed;
+  z-index: -1;   
+background-repeat:no-repeat;
+}
